@@ -5,8 +5,6 @@ import './css/genre.css';
 
 import ListGameContainer from './ListGameContainer'
 
-import about from './Games/About/About'
-
 import sc2 from './Games/Rts/Sc2'
 import pacific from './Games/Rts/Pacific'
 
@@ -19,7 +17,6 @@ import newspaper from './Games/Jams/Newspaper'
 import cham from './Games/Jams/Cham'
 import party from './Games/Jams/Party'
 
-const categoryAbout = {name: "About", bg: "genre-about", games: [about]};
 const categoryRTS = {name: "Real Time Strategy", bg: "genre-rts", games: [sc2, pacific]};
 const categoryFPS = {name: "First Person Shooter", bg: "genre-fps", games: [bms1, bms2]};
 const categoryJam = {name: "Game Jams", bg: "genre-jam", games: [tortoise, steve, newspaper, cham, party]};
@@ -40,7 +37,6 @@ class ListGames extends Component {
         <div id="listRTS">
             {/*RTS*/}
             {/*{Genre(categoryAbout)}*/}
-            <ListGameContainer type={categoryAbout.games}></ListGameContainer>
 
             {Genre(categoryRTS)}
             <ListGameContainer type={categoryRTS.games}></ListGameContainer>

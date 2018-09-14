@@ -1,3 +1,8 @@
+.bg-hamburger{
+	background-color: black;
+	opacity: 0.9;
+}
+
 .bg-about{
 	background-image: url("../img/about/clouds.jpg");
 	min-height: fit-content;
@@ -5,6 +10,7 @@
 
 .bg-about > div{
 	margin-top: 2em;
+	max-width: 750px;
 }
 
 .bg-sc2{
