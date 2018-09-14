@@ -1,8 +1,10 @@
 .grid-group-two{
 	grid-template-columns: repeat(auto-fill, 560px);
+	grid-gap: 0.5em;
 }
 
 .grid-group-two > div{
 	margin-top: auto;
 	margin-bottom: auto;
+	padding-right: 1em;
 }
