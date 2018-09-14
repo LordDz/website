@@ -1,5 +1,5 @@
 
-export const cham = {id: "i14", name: "Kameleont", baseGame: "Custom", type: "Unity", url: "https://github.com/robinerd/kameleont", videoUrl: "", classNames: "bg-kameleont",
+export const cham = {id: "i14", name: "Slurpwave", baseGame: "Custom", type: "Unity", url: "https://globalgamejam.org/2017/games/slurpwave", videoUrl: "", classNames: "bg-kameleont",
 text: "-", notes: "-"
 };
 
