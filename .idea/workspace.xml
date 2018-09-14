@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0478db75-7d2e-4d75-be7a-11b503d6dfd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/index.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/css/grid.css" />
         <option value="$PROJECT_DIR$/src/ListGames/ListGames.js" />
         <option value="$PROJECT_DIR$/src/ListGames/Games/Jams/Cham.js" />
-        <option value="$PROJECT_DIR$/src/css/index.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/css/index.css" />
       </list>
     </option>
   </component>
@@ -396,8 +396,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943925" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943925" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943925" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26589826" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26589826" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -765,15 +765,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
