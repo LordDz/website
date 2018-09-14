@@ -1,15 +1,8 @@
-html, body
-{
-  background-color: black;
+body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
   overflow-x: hidden;
-  border: 0 none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  outline: invert none 0;
-  vertical-align: baseline;
 }
 
 ul{
@@ -34,12 +27,13 @@ ul li a{
 
 .section > div{
   display: grid;
-  max-width: 1200px;
+  max-width: fit-content;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
 
-  background-color: rgba(0, 0, 0, 0.50);
   background-color: #0000007a;
+  background-color: rgba(0, 0, 0, 0.51);
   color: white;
   border-radius: 0.1em;
 }
