@@ -1,0 +1,37 @@
+.genre{
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+.genre > div{
+	display: flex;
+	justify-content: center;
+}
+
+.genre-about{
+	/*background: url("rts.jpg") no-repeat 0% -236px;*/
+	background-color: black;
+	background-size: cover;
+	color: white;
+}
+
+.genre-rts{
+	/*background: url("rts.jpg") no-repeat 0% -236px;*/
+	background-color: black;
+	background-size: cover;
+	color: white;
+}
+
+.genre-fps{
+	/*background: url("fps.jpg") no-repeat;*/
+	background-color: black;
+	background-size: cover;
+	color: white;
+}
+
+.genre-jam{
+	/*background: url("fps.jpg") no-repeat;*/
+	background-color: black;
+	background-size: cover;
+	color: white;
+}

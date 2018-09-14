@@ -1,0 +1,12 @@
+
+/*RTS*/
+.background-img{
+  	min-height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+.text-notes{
+	font-style: italic;
+}

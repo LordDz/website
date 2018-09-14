@@ -1,0 +1,8 @@
+.grid-group-two{
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid-group-two > div{
+	margin-top: auto;
+	margin-bottom: auto;
+}

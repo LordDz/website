@@ -1,0 +1,32 @@
+.a-download{
+	font-size: 2em;
+	color: white;
+	font-weight: 900;
+	text-decoration: none;
+	transition: color 1.5s;
+}
+
+.a-download:hover{
+	color: orange;
+	transition: color 0.25s;
+}
+
+.a-work{
+	margin-left: 2em;
+	font-size: 2em;
+	color: white;
+	font-weight: 900;
+	text-decoration: none;
+	transition: color 1.5s;
+}
+
+.a-work:hover{
+	color: orange;
+	transition: color 0.25s;
+}
+
+
+h1, h2, h3, h4{
+	-webkit-margin-before: 0.2em;
+	-webkit-margin-after: 0.2em;
+}
