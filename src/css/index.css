@@ -5,17 +5,17 @@ body {
   overflow-x: hidden;
 }
 
-ul{
+.listPages ul{
   list-style: none;
   -webkit-padding-start: 20px;
 }
 
-ul li{
+.listPages ul li{
   float: left;
   padding-right: 1em;
 }
 
-ul li a{
+.listPages ul li a{
   color: white;
   font-size: 2em;
 }
@@ -47,7 +47,6 @@ ul li a{
 
 .whiteframe{
   padding: 1em;
-  background-color: white;
 }
 
 .content-center{

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import './css/hamburger-menu.css';
-import { categoryGames } from './ListGames/ListGames'
-// import logo from './logo.svg';
+import { categoryGames } from './ListGames/ListGames';
+import GithubPreview from './GithubPreview/GithubPreview';
+
 
 const ListPages = (categories => categories.map((page) =>
-    <ul>
+    <ul key={"ul" + page.id}>
     <li key={page.id}><a href={'/#' + page.name}>{page.name}</a></li>
     </ul>
 ));
@@ -20,6 +21,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
             {/*<img src={logo} className="App-logo" alt="logo" />*/}
+
             <div className="listPages content-center">
                 {ListPages(categoryGames)}
             </div>
@@ -32,7 +34,6 @@ class App extends Component {
                 <ul id="menu" className="bg-hamburger">
                     {ListHamburger(categoryGames)}
                 </ul>
-
             </div>
         </header>
       </div>

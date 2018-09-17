@@ -17,9 +17,9 @@ import newspaper from './Games/Jams/Newspaper'
 import cham from './Games/Jams/Cham'
 import party from './Games/Jams/Party'
 
-const categoryRTS = {name: "Real Time Strategy", bg: "genre-rts", games: [sc2, pacific]};
-const categoryFPS = {name: "First Person Shooter", bg: "genre-fps", games: [bms1, bms2]};
-const categoryJam = {name: "Game Jams", bg: "genre-jam", games: [steve, tortoise, newspaper, cham, party]};
+const categoryRTS = {name: "Real Time Strategy", id: "categoryRTS", bg: "genre-rts", games: [sc2, pacific]};
+const categoryFPS = {name: "First Person Shooter", id: "categoryFPS", bg: "genre-fps", games: [bms1, bms2]};
+const categoryJam = {name: "Game Jams", bg: "genre-jam", id: "categoryJAM", games: [steve, tortoise, newspaper, cham, party]};
 
 export const categoryGames = [categoryRTS, categoryFPS, categoryJam];
 
