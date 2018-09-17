@@ -52,7 +52,7 @@ class GithubPreview extends Component {
                     <div>{item.created_at.substr(0, 10)}: {item.actor.login}</div>
                     <div>
                         {item.payload.commits.map(commit => (
-                            <div><a href={commit.url}>{commit.message}</a></div>
+                            <div><a href={commit.url.replace('api.', '').replace('commits', 'commit').replace('repos/', '')}>{commit.message}</a></div>
                         ))}
                     </div>
                 </li>
