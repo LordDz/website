@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const aboutText = {id: "i9", name: "David Zetterdahl", baseGame: "''LordDz''", type: "", url: "email:david_zetterdahl@hotmail.com", videoUrl: "amRoh96Z2to", classNames: "bg-about",
-text: "Game developer with a passion for creating games.",
+text: "Game developer based Gothenburg. Below are mods and games I've created the past years.",
 notes: "The site is made from scratch with React."
 };
 
