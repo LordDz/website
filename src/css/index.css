@@ -26,8 +26,7 @@ body {
 }
 
 .section > div{
-  display: grid;
-  max-width: fit-content;
+  max-width: 35em;
   -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
