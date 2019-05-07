@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-This is my website for my portfolio projects, more updates will come in the near future.
+This is my website for my portfolio projects, more updates will come in the near future!
 
 ## Table of Contents
 
