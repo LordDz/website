@@ -15,6 +15,7 @@ const StyledButton = styled.button<IStyledButton>`
   height: 48px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 
   label {
     margin: auto;

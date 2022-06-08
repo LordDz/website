@@ -23,9 +23,12 @@ export const TenzieLogic: React.FC<ITenzieLogic> = ({
   nrOfButtonsPerRow,
   nrOfRows,
 }) => {
-  const [buttons, setButtons] = useState<Array<Number>>([]);
+  const [buttons, setButtons] = useState<Array<number>>([]);
   const [showWinnerBtn, setShowWinnerBtn] = useState<Boolean>(false);
-  const [buttonStatus, setButtonStatus] = useState<Array<Number>>([]);
+  const [buttonStatus, setButtonStatus] = useState<Array<number>>([]);
+  const [nrOfClicks, setNrOfClicks] = useState<number>(0);
+  const [nrOfRolls, setNrofRolls] = useState<number>(0);
+  const [skillText, setSkillText] = useState<string>("");
   const [refreshClass, setRefreshClass] = useState<string>("");
 
   const getRandomNumber = () => {
@@ -57,6 +60,24 @@ export const TenzieLogic: React.FC<ITenzieLogic> = ({
         setShowWinnerBtn(true);
       }
     }
+    const clicks = nrOfClicks + 1; // Need to set it as a temp variable cuz setNrOfClicks isn't instant
+    setNrOfClicks(clicks);
+    switch (clicks) {
+      case 5:
+        setSkillText("C'mon you can do this!");
+        break;
+      case 10:
+        setSkillText("So close to winning!");
+        break;
+      case 14:
+        setSkillText("This is becoming a major skill issue.");
+        break;
+      case 22:
+        setSkillText("Zzzzz..");
+        break;
+      default:
+        setSkillText("");
+    }
   };
 
   const checkIfAllButtonsAreSame = (arr: Array<Number>) => {
@@ -73,6 +94,7 @@ export const TenzieLogic: React.FC<ITenzieLogic> = ({
     }
     setButtons(numbers);
     setRefreshClass("refresh_" + getRandomNumber());
+    setNrofRolls(nrOfRolls + 1);
   };
 
   return (
@@ -94,6 +116,11 @@ export const TenzieLogic: React.FC<ITenzieLogic> = ({
       ) : (
         <TenzieRollButton onClick={onClickRoll} />
       )}
+      <div style={{ display: "grid", marginTop: "20px" }}>
+        {nrOfRolls > 0 && <label>Rolls: {nrOfRolls + ""}</label>}
+        {nrOfClicks > 0 && <label>Clicks: {nrOfClicks + ""}</label>}
+        <label>{skillText}</label>
+      </div>
     </div>
   );
 };
