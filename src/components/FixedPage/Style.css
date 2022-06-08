@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow-y: visible;
+}
+
+.fixedChildren {
+    display: grid;    
+}
