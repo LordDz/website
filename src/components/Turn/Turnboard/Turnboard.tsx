@@ -1,8 +1,6 @@
 import styled from "styled-components";
-import { TenzieLogic } from "../TenzieLogic/TenzieLogic";
-import { TenzieRollButton } from "../TenzieRollButton/TenzieRollButton";
 
-interface ITenzieContainer {}
+interface ITurnboard {}
 
 interface IStyledDiv {}
 
@@ -26,15 +24,12 @@ const StyledDiv = styled.div<IStyledDiv>`
   }
 `;
 
-export const TenzieContainer: React.FC<ITenzieContainer> = ({}) => {
+export const Turnboard: React.FC<ITurnboard> = ({}) => {
   return (
     <StyledDiv>
-      <h1>Tenzies</h1>
       <label>
-        Roll until all dice are the same. Click each die to freeze it at its
-        current value between rolls.
+        This is a turnboard, there are many like them, but this one is mine.
       </label>
-      <TenzieLogic nrOfButtonsPerRow={6} nrOfRows={4} />
     </StyledDiv>
   );
 };
